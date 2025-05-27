@@ -53,6 +53,29 @@ Can run on:
 - [Create a homemade engine](https://github.com/lichess-bot-devs/lichess-bot/wiki/Create-a-homemade-engine)
 - [Add extra customizations](https://github.com/lichess-bot-devs/lichess-bot/wiki/Extra-customizations)
 
+## Running locally
+
+```bash
+uv run python lichess-bot.py
+```
+
+```bash
+➜ lichess-bot (master) ✗ uv run python lichess-bot.py
+[05/27/25 13:14:05] INFO                                                                                                                         lichess_bot.py:1174
+                                 .   _/|
+                                 .  // o\
+                                 .  || ._)  lichess-bot 2025.5.7.1 on Darwin 24.5.0
+                                 .  //__\
+                                 .  )___(   Play on Lichess with a bot
+
+                    INFO     Checking engine configuration ...                                                                                   lichess_bot.py:1180
+[05/27/25 13:14:06] INFO     Engine configuration OK                                                                                             lichess_bot.py:1183
+                    INFO     Welcome bot-bigredchess!                                                                                            lichess_bot.py:1193
+                    INFO     You're now connected to https://lichess.org/ and awaiting
+```
+
+---
+
 <br />
 
 ## Acknowledgements
